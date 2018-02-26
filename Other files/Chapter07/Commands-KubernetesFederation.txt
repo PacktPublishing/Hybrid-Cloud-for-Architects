@@ -1,0 +1,58 @@
+#install kubectl on machine
+sudo snap install kubectl --classic
+
+#Add a new model to existing controller
+juju add-model federation-kubernetes
+juju deploy canonical-kubernetes
+
+
+juju scp kubernetes-master/0:/home/ubuntu/config config
+mv config .kube/
+
+
+#Install load-kubeconfig
+sudo npm install -g load-kubeconfig
+
+
+# Change context names
+sed -i -e "s/juju-cluster/aws/g" \
+    -e "s/juju-context/aws/g" \
+    .kube/aws-config
+
+sed -i -e "s/juju-cluster/openstack/g" \
+    -e "s/juju-context/openstack/g" \
+    .kube/openstack-config
+
+sed -i -e "s/juju-cluster/fed-cluster/g" \
+    -e "s/juju-context/fed-cluster/g" \
+    .kube/config
+
+
+# Load kube-config
+load-kubeconfig .kube/aws-config
+load-kubeconfig .kube/openstack-config
+
+# Get contexts
+kubectl config get-contexts
+
+
+# Create a federation
+
+juju switch federation-kubernetes
+juju config kubernetes-master enable-coredns=True
+
+# Install kubefed
+
+sudo snap install kubefed --classic
+
+
+#Initialise federation
+kubefed init federation --host-cluster-context=fed-cluster --dns-provider="coredns" \
+ --dns-zone-name="federation-test.com." --dns-provider-config=dns-config.conf
+
+# Join federation
+kubectl config use-context federation
+kubefed join openstack --host-cluster-context=fed-cluster
+kubefed join aws --host-cluster-context=fed-cluster
+
+

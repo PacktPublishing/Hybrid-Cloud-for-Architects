@@ -1,0 +1,21 @@
+# Rightscale - State of the Cloud Report
+https://www.rightscale.com/lp/2017-state-of-the-cloud-report
+
+# Genome sequencing report link
+https://www.genome.gov/27565109/the-cost-of-sequencing-a-human-genome/
+
+#Statista - Average daily rate of hotels
+https://www.statista.com/statistics/208133/us-hotel-revenue-per-available-room-by-month/)
+
+#Zillow report
+https://www.zillow.com/home-values/
+
+#Costing - Private vs Public Cloud
+https://www.forbes.com/sites/paulmiller/2015/05/01/451-research-unpicks-private-cloud-pricing-to-suggest-surprises/#6ad20a858d32
+
+#AWS Compliance Link
+https://aws.amazon.com/compliance/
+
+#Zynga - Case Study
+https://aws.amazon.com/solutions/case-studies/zynga/
+

@@ -1,0 +1,27 @@
+#SNMP OID Tree
+http://www.oid-info.com/cgi-bin/display?tree=0
+
+# Prometheus Homepage
+https://prometheus.io﻿
+
+# Prometheus Github page
+https://github.com/prometheus/prometheus﻿
+
+#Installation options of prometheus
+https://prometheus.io/docs/prometheus/latest/installation/
+
+# Prometheus download page
+https://prometheus.io/download
+
+# Grafana Homepage
+https://grafana.com﻿
+
+# Grafana installation instructions
+http://docs.grafana.org/installation
+
+
+# Grafana getting started guide
+http://docs.grafana.org/guides/getting_started/﻿
+
+# Grafana predefined dashboards
+https://grafana.com/dashboards

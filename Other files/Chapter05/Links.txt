@@ -1,0 +1,18 @@
+# AWS VPC
+http://docs.aws.amazon.com/AmazonVPC/latest/GettingStartedGuide/getting-started-ipv4.html
+http://docs.aws.amazon.com/AmazonVPC/latest/PeeringGuide/peering-scenarios.html﻿
+
+# AWS Transit VPC
+http://docs.aws.amazon.com/solutions/latest/cisco-based-transit-vpc/welcome.html
+https://aws.amazon.com/blogs/aws/aws-solution-transit-vpc/﻿
+
+# AWS Account Creation
+https://aws.amazon.com/free/﻿
+
+# AWS VPC - VPN Configuration
+http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_VPN.html﻿
+
+# Openstack Documentation
+https://docs.openstack.org/install-guide/
+
+

@@ -1,0 +1,13 @@
+#Pets vs Cattle
+http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
+
+#vRealize
+https://www.vmware.com/in/products/vrealize-automation.html
+
+#Cisco CIAC
+https://www.cisco.com/c/en/us/products/cloud-systems-management/intelligent-automation-cloud/index.html
+
+#BMC Atrium
+http://www.bmcsoftware.in/it-solutions/atrium-orchestrator.html
+
+

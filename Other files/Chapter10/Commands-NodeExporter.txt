@@ -1,0 +1,20 @@
+#Installing node exporter
+
+cd ~
+wget https://github.com/prometheus/node_exporter/releases/download/v0.15.2/node_exporter-0.15.2.linux-amd64.tar.gz
+tar -xvzf node_exporter-0.15.2.linux-amd64
+sudo sudo useradd node_exporter
+sudo cp node_exporter-0.15.2.linux-amd64/node_exporter /usr/local/bin
+sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
+
+
+# the contents of the startup service file is given seperately in the directory
+# Starting the service
+
+sudo systemctl start node_exporter
+
+# Check if node exporter is working
+curl http://localhost:9100/metrics 2>/dev/null | grep -v "#" | grep cpu
+
+
+

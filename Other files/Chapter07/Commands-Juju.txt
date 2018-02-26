@@ -1,0 +1,55 @@
+# Installing juju
+sudo add-apt-repository ppa:juju/stable
+sudo apt update
+sudo apt install juju
+
+# listing clouds
+juju list-clouds
+
+# Adding credentials
+juju add-credential <cloud name>
+
+juju list-credentials
+
+
+# Bootstrapping clouds
+juju bootstrap <cloud> <controller name>
+
+
+# Juju GUI url
+juju gui
+
+# Deploying Kubernetes cluster
+juju deploy canonical-kubernetes
+juju status
+
+
+# Adding OpenStack cloud
+
+juju add-cloud
+juju add-credential my-devstack
+juju bootstrap my-devstack
+
+# Deploy Kubernetes on OpenStack
+juju deploy canonical-kubernetes -m my-devstack-RegionOne:default
+
+
+# Switch controllers
+juju switch <controller name>
+
+
+
+# Connection to Kubernetes Clusters
+juju switch aws
+juju scp kubernetes-master/0:/home/ubuntu/config aws-config
+mv aws-config .kube/
+
+juju switch my-devstack
+juju scp kubernetes-master/0:/home/ubuntu/config openstack-config
+mv openstack-config .kube/
+
+
+
+
+
+

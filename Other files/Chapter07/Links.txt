@@ -1,0 +1,28 @@
+#Kubernetes - Homepage
+https://kubernetes.io/
+
+#Kubernetes - Volumes
+https://kubernetes.io/docs/concepts/storage/volumes/
+
+
+#Kubernetes -Pick right solution
+https://kubernetes.io/docs/setup/pick-right-solution/﻿
+
+#Juju charms
+https://jujucharms.com/docs/2.0/reference-releases﻿
+
+# Juju canonical kubernetes bundle
+https://jujucharms.com/canonical-kubernetes/﻿
+
+# Kubernetes Security policy
+https://kubernetes.io/docs/concepts/policy/pod-security-policy/
+
+# Kubernetes fededration
+https://kubernetes.io/docs/tasks/federation/set-up-cluster-federation-kubefed/
+
+# Install Kubernetes kubectl
+https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-binary-via-curl﻿
+
+
+
+

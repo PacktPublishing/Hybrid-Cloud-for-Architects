@@ -1,0 +1,12 @@
+# DH explanation
+https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange#Cryptographic_explanation
+
+# Dig Interface
+https://www.digwebinterface.com/.
+
+#Cockroach DB demo
+https://thenewstack.io/openstack-summit-presented-convincing-demo-cross-cloud-convergence/
+
+https://www.youtube.com/watch?v=mPKbUIk_Mxo
+
+

@@ -1,0 +1,22 @@
+# Azure stack
+https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-deploy
+
+#Azure Stack installation - Single node POC
+
+https://channel9.msdn.com/Blogs/azurestack/Microsoft-Azure-Stack-TP1-POC-Deployment-Tutorial
+
+# Azure Stack pricing
+https://azure.microsoft.com/en-in/overview/azure-stack/how-to-buy/﻿
+
+#OpenStack Big-Tent Governance Model
+https://www.openstack.org/videos/vancouver-2015/the-big-tent-a-look-at-the-new-openstack-projects-governance﻿
+
+# Project Omni - Github
+https://github.com/openstack/omni﻿
+
+# Project Omni Video
+https://www.youtube.com/watch?v=cceXCjnP-LU
+
+#vCloud Air
+https://www.vmware.com/in/cloud-services/infrastructure.html﻿
+

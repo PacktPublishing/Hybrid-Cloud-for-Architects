@@ -1,0 +1,29 @@
+#Installing prometheus
+wget https://github.com/prometheus/prometheus/releases/download/v2.1.0/prometheus-2.1.0.linux-amd64.tar.gz
+tar -xvzf prometheus-2.1.0.linux-amd64.tar.gz
+
+sudo mkdir /etc/prometheus
+sudo mkdir /var/lib/prometheus
+sudo useradd prometheus
+
+# Moving the executables
+sudo cp prometheus-2.1.0.linux-amd64/prometheus /usr/local/bin/
+sudo cp prometheus-2.1.0.linux-amd64/promtool /usr/local/bin/
+
+#Copying the folders
+sudo cp -r prometheus-2.1.0.linux-amd64/consoles /etc/prometheus
+sudo cp -r prometheus-2.1.0.linux-amd64/console_libraries /etc/prometheus
+
+#Modifying the permissions
+sudo chown -R prometheus:prometheus /etc/prometheus
+sudo chown -R prometheus:prometheus /var/lib/prometheus/
+sudo chown prometheus:prometheus /usr/local/bin/prometheus
+sudo chown prometheus:prometheus /usr/local/bin/promtool
+
+
+# The startup file and the configuration YML files are in seperate files,
+
+
+# Starting the prometheus service
+sudo systemctl start prometheus
+

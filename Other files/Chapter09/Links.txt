@@ -1,0 +1,41 @@
+#Gartner Bi-Modal IT
+
+https://www.gartner.com/it-glossary/bimodal/
+
+# AWS Cloud Formation template
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-west-2.html
+
+# Terraform Homepage
+https://www.terraform.io﻿
+
+#Terraform use-cases
+https://www.terraform.io/intro/use-cases.html
+
+#Terraform Providers
+https://www.terraform.io/docs/providers/﻿
+
+#Terraform Install instructions
+https://www.terraform.io/intro/getting-started/install.html﻿
+
+# Terraform download links
+https://www.terraform.io/downloads.html
+
+# Terraform configuration syntax
+https://www.terraform.io/docs/configuration/syntax.html﻿
+
+# Terraform - Configuration per provider
+https://www.terraform.io/docs/providers/index.html﻿
+
+# Terraform documentation
+https://www.terraform.io/docs/index.html
+
+# Terraform explanation video
+https://www.youtube.com/watch?v=TFLQcgZr0no
+
+# Ansible Homepage
+http://ansible.com﻿
+
+# Enable passwordless ssh
+https://medium.com/@visualskyrim/ansible-playbook-deploy-the-public-key-to-remote-hosts-da3f3b4b5481
+
+

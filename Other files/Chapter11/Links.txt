@@ -1,0 +1,26 @@
+# FBI ransomware report
+https://www.fbi.gov/file-repository/ransomware-prevention-and-response-for-cisos.pdf/view
+
+# Ponemon research link
+http://www.ponemon.org/blog/the-cost-of-malware-containment
+
+
+#Health and Human services
+https://www.hhs.gov/﻿
+
+#HiPAA controls
+https://www.hhs.gov/hipaa/for-professionals/index.html﻿
+
+# Detailed HIPAA excel
+https://www.healthit.gov/sites/default/files/tools/hit_security_risk_assessment_tool_v1.0_revised-1_0.xlsm
+
+# AWS HIPAA compliance
+https://aws.amazon.com/compliance/hipaa-eligible-services-reference/.
+
+https://aws.amazon.com/blogs/security/frequently-asked-questions-about-hipaa-compliance-in-the-aws-cloud/
+
+https://aws.amazon.com/blogs/security/frequently-asked-questions-about-hipaa-compliance-in-the-aws-cloud-part-two/﻿
+
+
+https://d0.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf.
+

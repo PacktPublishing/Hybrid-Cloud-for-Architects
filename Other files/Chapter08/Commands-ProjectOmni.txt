@@ -1,0 +1,9 @@
+#Unstacking a devstack
+sudo su
+su stack
+cd /devstack
+./unstack.sh
+
+
+# Stacking a devstack
+/devstack/stack.sh

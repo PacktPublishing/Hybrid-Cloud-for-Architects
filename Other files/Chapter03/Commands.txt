@@ -1,0 +1,15 @@
+# The Story of a Web Application
+
+
+## Access HTTP website using a Proxy
+
+telnet <Proxy IP> <Proxy Port>
+GET http://www.google.com/ HTTP/1.1
+Host: www.google.com
+Connection: Close
+
+
+## Accessing HTTPS site
+openssl s_client -connect www.google.com:443.
+
+

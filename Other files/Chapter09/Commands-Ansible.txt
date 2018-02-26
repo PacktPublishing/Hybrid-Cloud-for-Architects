@@ -1,0 +1,11 @@
+# Installing ansible
+
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
+
+
+# Running a playbook with password
+ansible-playbook apache-playbook.yml -u alokshrivastwa --ask-pass
+

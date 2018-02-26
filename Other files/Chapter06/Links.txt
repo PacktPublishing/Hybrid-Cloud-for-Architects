@@ -1,0 +1,37 @@
+#AWS Storage gateway
+
+https://aws.amazon.com/storagegateway/
+http://aws.amazon.com/storagegateway/pricing
+
+# Storage gateway region selection
+http://docs.aws.amazon.com/storagegateway/latest/userguide/available-regions-intro.html
+
+#Storage gateway configuration
+http://docs.aws.amazon.com/storagegateway/latest/userguide/create-gateway-file.html
+
+#Docker Home page
+http://www.docker.com
+
+# Manage IQ automation configuration Link
+https://www.gitbook.com/book/pemcg/mastering-automation-in-cloudforms-4-2-and-manage/details﻿
+
+## Manage IQ policies and profiles
+
+http://manageiq.org/docs/reference/latest/doc-Policies_and_Profiles_Guide/miq/﻿
+
+##Manage IQ MFA
+http://manageiq.org/docs/reference/latest/auth/active_directory﻿
+
+
+#AWS Import Export
+http://docs.aws.amazon.com/vm-import/latest/userguide/vmimport-image-import.html﻿
+
+
+# Ubuntu Image converter
+http://manpages.ubuntu.com/manpages/xenial/man1/qemu-img.1.html﻿
+
+
+#Packer homepage
+https://www.packer.io/﻿
+
+

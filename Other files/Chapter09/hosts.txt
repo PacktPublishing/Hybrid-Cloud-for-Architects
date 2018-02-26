@@ -1,0 +1,4 @@
+#File location /etc/ansible/hosts
+
+[sample-group]
+10.128.0.3

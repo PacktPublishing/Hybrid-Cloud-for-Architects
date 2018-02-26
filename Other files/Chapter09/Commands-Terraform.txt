@@ -1,0 +1,27 @@
+#Install terraform
+
+mkdir terraform
+cd terraform
+
+wget \
+https://releases.hashicorp.com/terraform/0.11.3/terraform_0.11.3_linux_amd64.zip?_ga=2.70404179.2143567178.1518149145-716135120.1517109232 -O terraformDownload.zip
+
+unzip terraformDownload.zip
+
+# Move terraform to the path
+
+sudo cp terraform /usr/local/bin
+
+
+# Initialise terraform
+
+terraform init
+
+
+# Planning terraform based deploy
+terraform plan
+
+
+# Applying the change
+terraform apply
+

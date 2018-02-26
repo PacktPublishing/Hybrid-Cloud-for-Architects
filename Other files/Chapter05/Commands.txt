@@ -1,0 +1,14 @@
+# Openstack install instructions
+
+cd /
+sudo git clone https://git.openstack.org/openstack-dev/devstack -b stable/ocata
+
+cd devstack/
+sudo cp samples/local.conf local.conf
+
+sudo /devstack/tools/create-stack-user.sh
+sudo chown -R stack:stack /devstack
+sudo su stack
+/devstack/stack.sh
+
+

@@ -1,0 +1,7 @@
+# Start ManageIQ container
+
+sudo systemctl start docker
+
+sudo docker run --privileged -d -p 8443:443 manageiq/manageiq:fine-4
+
+

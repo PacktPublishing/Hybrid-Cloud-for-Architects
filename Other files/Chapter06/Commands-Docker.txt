@@ -1,0 +1,22 @@
+# Install Docker
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt-get update
+
+sudo apt-get install -y docker-ce
+
+
+
+## Add your user name into docker group (Optional)
+sudo usermod -aG docker <enter your username here>
+
+
+
+## Run the hello-world container
+
+docker run hello-world
+
+
